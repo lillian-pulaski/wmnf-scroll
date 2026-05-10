@@ -1,4 +1,4 @@
-# White Mountains National Forest — Travel Guide
+# White Mountains National Forest Travel Guide
 
 An interactive, scroll-driven travel guide for White Mountains National Forest built with HTML, CSS, and GSAP (GreenSock Animation Platform).
 
