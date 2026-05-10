@@ -1,0 +1,493 @@
+html,
+body,
+#container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*-- COME BACK AND FIX WHITE LINE IN BETW SECTIONS --*/
+
+.section {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    outline: 0px solid transparent;
+}
+
+.section h1 {
+    margin: 0;
+    font-family: "Afacad", sans-serif;
+}
+
+.section h2 {
+    margin: 0;
+    font-family: "Afacad", sans-serif;
+}
+
+.section p {
+    font-family: "Afacad", sans-serif;
+    font-size: 18px;
+}
+
+/* ── SECTION ONE ── */
+#one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f1c232;
+}
+
+#one-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding-left: 60px;
+    color: #eeeeee;
+    font-size: 65px;
+    line-height: 110px;
+}
+
+#one h1 {
+    font-size: 150px;
+}
+
+#one h2 {
+    color: #6aa84f;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+#one p {
+    color: #274e13;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#one-img {
+    width: 35%;
+    height: 90vh;
+    padding-right: 50px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    flex-shrink: 0;
+    position: relative;
+}
+
+/* ── SECTION TWO ── */
+#two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f1c232;
+    color: #eeeeee;
+    position: relative;
+    padding-right: 120px;
+}
+
+#two-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+    padding-right: 300px;
+}
+
+#two-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#two h1 {
+    font-size: 120px;
+    line-height: 1;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+}
+
+#two h2 {
+    font-size: 40px;
+    line-height: 1;
+    color: #f1c232;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+    background-color: #6aa84f;
+    border-radius: 50%;
+    display: block;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 0;
+}
+
+/* ── SECTION THREE ── */
+#three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #6aa84f;
+    padding-bottom: 0;
+    gap: 0;
+    margin: 0;
+    margin-top: -2px;
+    padding-top: 2px;
+}
+
+#three-circles {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: -350px;
+}
+
+.dome {
+    border-radius: 50%;
+    background-color: #3f2000;
+    color: #f1c232;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.dome--primary {
+    width: 55vw;
+    height: 55vw;
+    transform: translateY(55vw);
+    z-index: 1;
+}
+
+.dome--secondary {
+    width: 45vw;
+    height: 45vw;
+    background-color: #783f04;
+    color: #f1c232;
+    z-index: 2;
+    margin-left: -200px;
+    transform: translateY(45vw);
+}
+
+.dome h2 {
+    font-size: clamp(60px, 12vw, 200px);
+}
+
+.dome p {
+    font-size: clamp(20px, 3vw, 50px);
+    margin: 0;
+    padding-bottom: 35%;
+    font-family: "Afacad", sans-serif;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.dome--secondary h2 {
+    font-size: clamp(50px, 9vw, 140px);
+}
+
+.dome--secondary p {
+    font-size: clamp(16px, 2.5vw, 36px);
+}
+
+/* ── SECTION FOUR ── */
+#four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #3f2000;
+    position: relative;
+    margin-top:-2px;
+    margin-bottom:2px;
+}
+
+#peak-triangles {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#four-label {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    text-align: right;
+}
+
+#four-label h1 {
+    font-size: 90px;
+    color: #f1c232;
+    line-height: 1;
+}
+
+/* ── SECTION FIVE ── */
+#five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    width: 80vw;
+}
+
+tr {
+    font-family: "Afacad", sans-serif;
+    background-color: #3c78d8;
+    color: #eeeeee;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+td {
+    padding: 18px 80px;
+    text-align: left;
+    border-radius: 20px;
+}
+
+#five .material-symbols-outlined {
+    font-size: 55px;
+    color: #eeeeee;
+    vertical-align: middle;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}
+
+/* ── SECTION SIX ── */
+#six {
+    background-color: #eeeeee;
+}
+
+.scroll-section-inner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.six-header {
+    padding-left: 120px;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+
+.six-header h1 {
+    font-size: 80px;
+    color: #274e13;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cards-track {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    will-change: transform;
+}
+
+#six-track {
+    transform: translateX(110vw);
+    padding: 0 120px;
+}
+
+/* ── SECTION SEVEN ── */
+#seven {
+    background-color: #274e13;
+}
+
+.seven-header {
+    padding-right: 120px;
+    margin-bottom: 30px;
+    z-index: 2;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.seven-header h1 {
+    font-size: 80px;
+    color: #f1c232;
+    margin: 0;
+}
+
+#seven-track {
+    padding: 0 80px;
+}
+
+.cards {
+    background-color: #274e13;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 400px;
+    min-width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.cards--tips {
+    background-color: #eeeeee;
+}
+
+.card-body {
+    font-family: "Afacad", sans-serif;
+    color: #eeeeee;
+    padding: 40px;
+}
+
+.cards--tips .card-body {
+    color: #3f2000;
+}
+
+.card-img {
+    height: 240px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-text {
+    padding-left: 10px;
+}
+
+#six .card-title,
+#six h2 {
+    padding-left: 10px;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #eeeeee;
+}
+
+#seven .card-title,
+#seven h2 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+    color: #3f2000;
+}
+
+#seven .material-symbols-outlined {
+    font-size: 120px;
+    color: #3f2000;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}
+
+/* ── SECTION EIGHT ── */
+#eight {
+    display: flex;
+    align-items: flex-end;
+    background-color: #f1c232;
+    color: #eeeeee;
+    height: 100vh;
+    position: relative;
+}
+
+#mountains {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    display: block;
+    z-index: 2;
+}
+
+#eight-text {
+    text-align: right;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    z-index: 3;
+    box-sizing: border-box;
+}
+
+#eight button {
+    border: 3.5px solid #f1c232;
+    background-color: #3f2000;
+    color: #f1c232;
+    border-radius: 50px;
+    padding: 14px 40px;
+    font-weight: 700;
+    font-family: "Afacad", sans-serif;
+    font-size: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#eight button .material-symbols-outlined {
+    font-size: 28px;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 48;
+}
+
+#eight-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+#eight button:hover {
+    background-color: #f1c232;
+    color: #3f2000;
+    border-color: #3f2000;
+}
+
+#eight h1 {
+    font-size: 150px;
+    line-height: 1;
+}
